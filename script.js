@@ -53,9 +53,9 @@ const checkWiner = () => {
       if (pos1 === pos2 && pos2 === pos3) {
         console.log("winner", pos1);
         showWinner(pos1);
-      }else{
-        msg.innerText = `Game tie.. \n Please Reset & Play again...`
-      }
+      }//else{
+       // msg.innerText = `Game tie.. \n Please Reset & Play again...`
+      //}
     }
   }
 };
